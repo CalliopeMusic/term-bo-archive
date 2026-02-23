@@ -1,6 +1,6 @@
 # TermBo Archive
 
-A two-step toolkit for preserving and searching the Terminal Boredom forum
+A two-step toolkit for preserving and searching the Term Bo forum
 from the Wayback Machine.
 
 ---
@@ -77,10 +77,9 @@ working before committing to the full run.
 
 The scraper waits ~1.5 seconds between requests to be polite to archive.org.
 A rough estimate:
-
-- Terminal Boredom had ~5,000–15,000 topics
-- Average ~1.5 pages per topic
-- ~2–3 requests per topic at 1.5s each = **~4–9 hours total**
+- Term Bo had 41,785 topics across all boards
+- 41,723 topics fully scraped (99.9% — 62 unrecoverable dead Wayback links)
+- 541,752 posts archived · 2,466 known authors
 
 Running it overnight is the easiest approach. You can check progress in
 `scraper.log` or by looking at the database:
@@ -128,7 +127,7 @@ python serve.py --db my_archive.db --port 9000
 ## File structure
 
 ```
-terminal-boredom-archive/
+term-bo-archive/
 ├── scraper.py          # Wayback Machine crawler
 ├── serve.py            # Local search server
 ├── static/
