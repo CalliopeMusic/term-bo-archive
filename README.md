@@ -1,4 +1,4 @@
-# Terminal Boredom Archive
+# TermBo Archive
 
 A two-step toolkit for preserving and searching the Terminal Boredom forum
 from the Wayback Machine.
